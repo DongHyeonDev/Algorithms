@@ -22,6 +22,7 @@
 		76FCDF302D08799F00E47010 /* Algorithm_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FCDF4F2D087FDD00E47010 /* 1000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1000.swift; sourceTree = "<group>"; };
 		76FCDF5B2D088A3200E47010 /* 1001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1001.swift; sourceTree = "<group>"; };
+		76FCDF5D2D088BA600E47010 /* 1008.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1008.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 			children = (
 				76FCDF4F2D087FDD00E47010 /* 1000.swift */,
 				76FCDF5B2D088A3200E47010 /* 1001.swift */,
+				76FCDF5D2D088BA600E47010 /* 1008.swift */,
 			);
 			path = "Bronze V";
 			sourceTree = "<group>";
