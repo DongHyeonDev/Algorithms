@@ -20,15 +20,8 @@
 
 /* Begin PBXFileReference section */
 		76FCDF302D08799F00E47010 /* Algorithm_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FCDF4F2D087FDD00E47010 /* 1000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1000.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		76FCDF322D08799F00E47010 /* Algorithm_Swift */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Algorithm_Swift;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		76FCDF2D2D08799F00E47010 /* Frameworks */ = {
@@ -44,7 +37,7 @@
 		76FCDF272D08799F00E47010 = {
 			isa = PBXGroup;
 			children = (
-				76FCDF322D08799F00E47010 /* Algorithm_Swift */,
+				76FCDF542D087FDD00E47010 /* Algorithm_Swift */,
 				76FCDF312D08799F00E47010 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +48,70 @@
 				76FCDF302D08799F00E47010 /* Algorithm_Swift */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		76FCDF4B2D087FDD00E47010 /* Bronze I */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Bronze I";
+			sourceTree = "<group>";
+		};
+		76FCDF4C2D087FDD00E47010 /* Bronze II */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Bronze II";
+			sourceTree = "<group>";
+		};
+		76FCDF4D2D087FDD00E47010 /* Bronze III */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Bronze III";
+			sourceTree = "<group>";
+		};
+		76FCDF4E2D087FDD00E47010 /* Bronze IV */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Bronze IV";
+			sourceTree = "<group>";
+		};
+		76FCDF502D087FDD00E47010 /* Bronze V */ = {
+			isa = PBXGroup;
+			children = (
+				76FCDF4F2D087FDD00E47010 /* 1000.swift */,
+			);
+			path = "Bronze V";
+			sourceTree = "<group>";
+		};
+		76FCDF512D087FDD00E47010 /* Baekjoon */ = {
+			isa = PBXGroup;
+			children = (
+				76FCDF4B2D087FDD00E47010 /* Bronze I */,
+				76FCDF4C2D087FDD00E47010 /* Bronze II */,
+				76FCDF4D2D087FDD00E47010 /* Bronze III */,
+				76FCDF4E2D087FDD00E47010 /* Bronze IV */,
+				76FCDF502D087FDD00E47010 /* Bronze V */,
+			);
+			path = Baekjoon;
+			sourceTree = "<group>";
+		};
+		76FCDF532D087FDD00E47010 /* Programmers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Programmers;
+			sourceTree = "<group>";
+		};
+		76FCDF542D087FDD00E47010 /* Algorithm_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				76FCDF512D087FDD00E47010 /* Baekjoon */,
+				76FCDF532D087FDD00E47010 /* Programmers */,
+			);
+			path = Algorithm_Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +128,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				76FCDF322D08799F00E47010 /* Algorithm_Swift */,
 			);
 			name = Algorithm_Swift;
 			packageProductDependencies = (
