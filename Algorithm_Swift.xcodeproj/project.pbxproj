@@ -21,6 +21,7 @@
 /* Begin PBXFileReference section */
 		764AE0242D0A7CD700CB69ED /* 7287.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7287.swift; sourceTree = "<group>"; };
 		76B51B802D0BE81500F5AD22 /* 10171.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10171.swift; sourceTree = "<group>"; };
+		76B51B842D0BE99A00F5AD22 /* 10172.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10172.swift; sourceTree = "<group>"; };
 		76FCDF302D08799F00E47010 /* Algorithm_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FCDF4F2D087FDD00E47010 /* 1000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1000.swift; sourceTree = "<group>"; };
 		76FCDF5B2D088A3200E47010 /* 1001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1001.swift; sourceTree = "<group>"; };
@@ -93,6 +94,7 @@
 				76FCDF612D090F8300E47010 /* 2557.swift */,
 				764AE0242D0A7CD700CB69ED /* 7287.swift */,
 				76B51B802D0BE81500F5AD22 /* 10171.swift */,
+				76B51B842D0BE99A00F5AD22 /* 10172.swift */,
 				76FCDF632D092CD100E47010 /* 10699.swift */,
 			);
 			path = "Bronze V";
@@ -160,7 +162,7 @@
 				TargetAttributes = {
 					76FCDF2F2D08799F00E47010 = {
 						CreatedOnToolsVersion = 16.1;
-						LastSwiftMigration = 1610;
+						LastSwiftMigration = 1620;
 					};
 				};
 			};
