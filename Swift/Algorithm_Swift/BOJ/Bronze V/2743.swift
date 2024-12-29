@@ -5,6 +5,8 @@
 //  Created by 김동현 on 12/27/24.
 //
 
+//  문제 링크: https://www.acmicpc.net/problem/2743
+//  알고리즘 분류: 구현, 문자열
 
 class BOJ2743: Solvable {
     func run() {

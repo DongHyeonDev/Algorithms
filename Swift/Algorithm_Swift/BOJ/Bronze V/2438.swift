@@ -5,6 +5,8 @@
 //  Created by 김동현 on 12/21/24.
 //
 
+//  문제 링크: https://www.acmicpc.net/problem/2438
+//  알고리즘 분류: 구현
 
 class BOJ2438: Solvable {
     func run() {
