@@ -5,10 +5,13 @@
 //  Created by 김동현 on 12/13/24.
 //
 
-import Foundation
 
-print("|\\_/|")
-print("|q p|   /}")
-print("( 0 )\"\"\"\\")
-print("|\"^\"`    |")
-print("||_/=\\\\__|")
+class BOJ10172: Solvable {
+    func run() {
+        print("|\\_/|")
+        print("|q p|   /}")
+        print("( 0 )\"\"\"\\")
+        print("|\"^\"`    |")
+        print("||_/=\\\\__|")
+    }
+}

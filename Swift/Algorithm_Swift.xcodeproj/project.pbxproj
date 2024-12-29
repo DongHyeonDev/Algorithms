@@ -9,6 +9,37 @@
 /* Begin PBXBuildFile section */
 		762B87B62D20024400884CE1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87B52D20024400884CE1 /* main.swift */; };
 		762B87B82D20478C00884CE1 /* Solvable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87B72D20478C00884CE1 /* Solvable.swift */; };
+		762B87B92D20481D00884CE1 /* 2744.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87B32D1FFC3000884CE1 /* 2744.swift */; };
+		762B87BA2D2049B000884CE1 /* 1000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FCDF4F2D087FDD00E47010 /* 1000.swift */; };
+		762B87BB2D2152F200884CE1 /* 1001.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FCDF5B2D088A3200E47010 /* 1001.swift */; };
+		762B87BC2D21532500884CE1 /* 1008.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FCDF5D2D088BA600E47010 /* 1008.swift */; };
+		762B87BD2D21535B00884CE1 /* 1330.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767C24102D0E94D800777215 /* 1330.swift */; };
+		762B87BE2D21539B00884CE1 /* 2420.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767C24182D0FF5B200777215 /* 2420.swift */; };
+		762B87BF2D2153BE00884CE1 /* 2438.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87A32D1707BB00884CE1 /* 2438.swift */; };
+		762B87C02D21562200884CE1 /* 2557.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FCDF612D090F8300E47010 /* 2557.swift */; };
+		762B87C12D21565600884CE1 /* 2738.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87AD2D1C4E6D00884CE1 /* 2738.swift */; };
+		762B87C22D2156D900884CE1 /* 2739.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767C24242D158BF500777215 /* 2739.swift */; };
+		762B87C32D2156F800884CE1 /* 2741.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767C241A2D11260B00777215 /* 2741.swift */; };
+		762B87C42D21571A00884CE1 /* 2743.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87B12D1EEBDB00884CE1 /* 2743.swift */; };
+		762B87C52D21577C00884CE1 /* 2753.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767C24162D0FF2A400777215 /* 2753.swift */; };
+		762B87C62D2157B800884CE1 /* 5597.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87AB2D1B009700884CE1 /* 5597.swift */; };
+		762B87C72D2157EE00884CE1 /* 7287.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764AE0242D0A7CD700CB69ED /* 7287.swift */; };
+		762B87C82D21582A00884CE1 /* 9498.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767C24122D0E9F7D00777215 /* 9498.swift */; };
+		762B87C92D21585600884CE1 /* 10171.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B51B802D0BE81500F5AD22 /* 10171.swift */; };
+		762B87CA2D21588400884CE1 /* 10172.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B51B842D0BE99A00F5AD22 /* 10172.swift */; };
+		762B87CB2D2158DD00884CE1 /* 10699.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FCDF632D092CD100E47010 /* 10699.swift */; };
+		762B87CC2D2158F700884CE1 /* 10807.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87A92D19A03000884CE1 /* 10807.swift */; };
+		762B87CD2D21593D00884CE1 /* 10869.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B51B8A2D0D71B500F5AD22 /* 10869.swift */; };
+		762B87CE2D21597B00884CE1 /* 10871.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87A72D183BB300884CE1 /* 10871.swift */; };
+		762B87CF2D2159BE00884CE1 /* 10872.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767C241C2D12E46B00777215 /* 10872.swift */; };
+		762B87D02D2159E000884CE1 /* 10950.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767C241E2D1304B300777215 /* 10950.swift */; };
+		762B87D12D215A1B00884CE1 /* 10951.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87A52D17099B00884CE1 /* 10951.swift */; };
+		762B87D22D215A3D00884CE1 /* 10952.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767C24202D1422C000777215 /* 10952.swift */; };
+		762B87D32D215A6700884CE1 /* 10998.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B51B882D0D70DF00F5AD22 /* 10998.swift */; };
+		762B87D42D215A9F00884CE1 /* 11382.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B51B8C2D0D73D400F5AD22 /* 11382.swift */; };
+		762B87D52D215ABA00884CE1 /* 11654.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87AF2D1D686E00884CE1 /* 11654.swift */; };
+		762B87D62D215AF800884CE1 /* 14681.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767C24142D0FF0F100777215 /* 14681.swift */; };
+		762B87D72D215B2300884CE1 /* 25083.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B51B862D0BEAA100F5AD22 /* 25083.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -245,8 +276,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762B87C02D21562200884CE1 /* 2557.swift in Sources */,
+				762B87BF2D2153BE00884CE1 /* 2438.swift in Sources */,
+				762B87C22D2156D900884CE1 /* 2739.swift in Sources */,
 				762B87B62D20024400884CE1 /* main.swift in Sources */,
+				762B87B92D20481D00884CE1 /* 2744.swift in Sources */,
+				762B87C72D2157EE00884CE1 /* 7287.swift in Sources */,
+				762B87D12D215A1B00884CE1 /* 10951.swift in Sources */,
+				762B87D42D215A9F00884CE1 /* 11382.swift in Sources */,
+				762B87C42D21571A00884CE1 /* 2743.swift in Sources */,
+				762B87C82D21582A00884CE1 /* 9498.swift in Sources */,
+				762B87D62D215AF800884CE1 /* 14681.swift in Sources */,
+				762B87CB2D2158DD00884CE1 /* 10699.swift in Sources */,
+				762B87D02D2159E000884CE1 /* 10950.swift in Sources */,
+				762B87C92D21585600884CE1 /* 10171.swift in Sources */,
+				762B87D72D215B2300884CE1 /* 25083.swift in Sources */,
+				762B87CA2D21588400884CE1 /* 10172.swift in Sources */,
+				762B87BC2D21532500884CE1 /* 1008.swift in Sources */,
+				762B87CC2D2158F700884CE1 /* 10807.swift in Sources */,
+				762B87C52D21577C00884CE1 /* 2753.swift in Sources */,
+				762B87BA2D2049B000884CE1 /* 1000.swift in Sources */,
+				762B87CE2D21597B00884CE1 /* 10871.swift in Sources */,
+				762B87C12D21565600884CE1 /* 2738.swift in Sources */,
+				762B87CD2D21593D00884CE1 /* 10869.swift in Sources */,
+				762B87D32D215A6700884CE1 /* 10998.swift in Sources */,
+				762B87D52D215ABA00884CE1 /* 11654.swift in Sources */,
+				762B87BB2D2152F200884CE1 /* 1001.swift in Sources */,
+				762B87C32D2156F800884CE1 /* 2741.swift in Sources */,
+				762B87CF2D2159BE00884CE1 /* 10872.swift in Sources */,
+				762B87BE2D21539B00884CE1 /* 2420.swift in Sources */,
 				762B87B82D20478C00884CE1 /* Solvable.swift in Sources */,
+				762B87BD2D21535B00884CE1 /* 1330.swift in Sources */,
+				762B87C62D2157B800884CE1 /* 5597.swift in Sources */,
+				762B87D22D215A3D00884CE1 /* 10952.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
