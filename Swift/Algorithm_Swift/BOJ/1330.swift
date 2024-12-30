@@ -9,6 +9,7 @@
 //  알고리즘 분류: 구현
 
 class BOJ1330: Solvable {
+    // 메모리: 79512KB, 시간: 8ms, 코드 길이: 869B
     func run() {
         // 입력 받기
         if let input = readLine() {

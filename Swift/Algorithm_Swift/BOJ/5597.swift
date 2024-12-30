@@ -9,6 +9,7 @@
 //  알고리즘 분류: 구현
 
 class BOJ5597: Solvable {
+    // 메모리: 79516KB, 시간: 8ms, 코드 길이: 696B
     func run() {
         var submittedStudents = Set<Int>()
         

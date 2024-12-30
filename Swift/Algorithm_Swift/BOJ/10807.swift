@@ -9,6 +9,7 @@
 //  알고리즘 분류: 구현
 
 class BOJ10807: Solvable {
+    // 메모리: 79516KB, 시간: 8ms, 코드 길이: 982B
     func run() {
         // 첫 번째 줄: 정수의 개수 N 입력 받기
         if let nInput = readLine(), let n = Int(nInput), n >= 1 && n <= 100 {

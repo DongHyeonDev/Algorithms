@@ -9,6 +9,7 @@
 //  알고리즘 분류: 수학, 구현, 사칙연산
 
 class BOJ15552: Solvable {
+    // 메모리: 119900KB, 시간: 268ms, 코드 길이: 2060B
     func run() {
         let fileIO = RhynoFileIO()
 

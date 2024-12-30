@@ -9,6 +9,7 @@
 //  알고리즘 분류: 구현
 
 class BOJ2557: Solvable {
+    // 메모리: 79500KB, 시간: 8ms, 코드 길이: 40B
     func run() {
         print("Hello World!")
     }

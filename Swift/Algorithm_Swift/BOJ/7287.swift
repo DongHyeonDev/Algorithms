@@ -9,6 +9,7 @@
 //  알고리즘 분류: 구현
 
 class BOJ7287: Solvable {
+    // 메모리: 79500KB, 시간: 8ms, 코드 길이: 49B
     func run() {
         print("80")
         print("dhkim0206")

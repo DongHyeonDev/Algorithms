@@ -9,6 +9,7 @@
 //  알고리즘 분류: 구현, 사칙연산, 수학
 
 class BOJ2753: Solvable {
+    // 메모리: 79508KB, 시간: 12ms, 코드 길이: 661B
     func run() {
         // 연도 입력 받기
         if let yearInput = readLine(), let year = Int(yearInput) {

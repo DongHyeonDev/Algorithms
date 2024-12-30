@@ -9,6 +9,7 @@
 //  알고리즘 분류: 구현, 수학
 
 class BOJ10872: Solvable {
+    // 메모리: 79508KB, 시간: 8ms, 코드 길이: 515B
     func run() {
         // 팩토리얼 계산 함수
         func factorial(_ n: Int) -> Int {

@@ -9,6 +9,7 @@
 //  알고리즘 분류: 구현
 
 class BOJ25083: Solvable {
+    // 메모리: 79504KB, 시간: 8ms, 코드 길이: 141B
     func run() {
         print("         ,r'\"7")
         print("r`-_   ,'  ,/")

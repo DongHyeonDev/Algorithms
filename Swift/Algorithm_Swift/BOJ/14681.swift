@@ -9,6 +9,7 @@
 //  알고리즘 분류: 구현, 기하학
 
 class BOJ14681: Solvable {
+    // 메모리: 79508KB, 시간: 8ms, 코드 길이: 851B
     func run() {
         // x 좌표 입력 받기
         if let xInput = readLine(), let x = Int(xInput) {

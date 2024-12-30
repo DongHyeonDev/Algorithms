@@ -9,6 +9,7 @@
 //  알고리즘 분류: 구현, 문자열
 
 class BOJ2754: Solvable {
+    // 메모리: 79504KB, 시간: 8ms, 코드 길이: 439B
     func run() {
         // 성적과 평점 매핑
         let gradeToPoint: [String: Double] = [

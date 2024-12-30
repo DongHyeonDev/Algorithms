@@ -9,6 +9,7 @@
 //  알고리즘 분류: 구현
 
 class BOJ10699: Solvable {
+    // 메모리: 79500KB, 시간: 8ms, 코드 길이: 108B
     func run() {
 //        // 현재 날짜 가져오기
 //        let currentDate = Date()

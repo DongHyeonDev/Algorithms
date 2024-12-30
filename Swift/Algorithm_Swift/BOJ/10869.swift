@@ -9,6 +9,7 @@
 //  알고리즘 분류: 구현, 사칙연산, 수학
 
 class BOJ10869: Solvable {
+    // 메모리: 79512KB, 시간: 8ms, 코드 길이: 821B
     func run() {
         // 입력 받기
         if let input = readLine() {

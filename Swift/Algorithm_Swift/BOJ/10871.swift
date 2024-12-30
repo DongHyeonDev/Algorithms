@@ -9,6 +9,7 @@
 //  알고리즘 분류: 구현
 
 class BOJ10871: Solvable {
+    // 메모리: 80424KB, 시간: 12ms, 코드 길이: 954B
     func run() {
         // 입력 받기
         if let firstLine = readLine(), let secondLine = readLine() {

@@ -9,6 +9,7 @@
 //  알고리즘 분류: 사칙연산, 구현, 수학
 
 class BOJ2738: Solvable {
+    // 메모리: 79772KB, 시간: 16ms, 코드 길이: 1787B
     func run() {
         // 첫 번째 줄: 행렬의 크기 N, M 입력받기
         if let firstLine = readLine() {
