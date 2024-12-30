@@ -41,6 +41,7 @@
 		762B87D62D215AF800884CE1 /* 14681.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767C24142D0FF0F100777215 /* 14681.swift */; };
 		762B87D72D215B2300884CE1 /* 25083.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B51B862D0BEAA100F5AD22 /* 25083.swift */; };
 		762B87D92D215D0200884CE1 /* 2754.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87D82D215D0200884CE1 /* 2754.swift */; };
+		762B87DE2D22542900884CE1 /* RhynoFileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87DD2D22542900884CE1 /* RhynoFileIO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +69,7 @@
 		762B87B52D20024400884CE1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		762B87B72D20478C00884CE1 /* Solvable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solvable.swift; sourceTree = "<group>"; };
 		762B87D82D215D0200884CE1 /* 2754.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2754.swift; sourceTree = "<group>"; };
+		762B87DD2D22542900884CE1 /* RhynoFileIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhynoFileIO.swift; sourceTree = "<group>"; };
 		764AE0242D0A7CD700CB69ED /* 7287.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7287.swift; sourceTree = "<group>"; };
 		767C24102D0E94D800777215 /* 1330.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1330.swift; sourceTree = "<group>"; };
 		767C24122D0E9F7D00777215 /* 9498.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9498.swift; sourceTree = "<group>"; };
@@ -104,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		762B87DC2D22540E00884CE1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				762B87DD2D22542900884CE1 /* RhynoFileIO.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		76FCDF272D08799F00E47010 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +181,7 @@
 			children = (
 				762B87B52D20024400884CE1 /* main.swift */,
 				762B87B72D20478C00884CE1 /* Solvable.swift */,
+				762B87DC2D22540E00884CE1 /* Utility */,
 				76FCDF512D087FDD00E47010 /* BOJ */,
 				76FCDF532D087FDD00E47010 /* Programmers */,
 			);
@@ -258,6 +269,7 @@
 				762B87CA2D21588400884CE1 /* 10172.swift in Sources */,
 				762B87BC2D21532500884CE1 /* 1008.swift in Sources */,
 				762B87CC2D2158F700884CE1 /* 10807.swift in Sources */,
+				762B87DE2D22542900884CE1 /* RhynoFileIO.swift in Sources */,
 				762B87C52D21577C00884CE1 /* 2753.swift in Sources */,
 				762B87BA2D2049B000884CE1 /* 1000.swift in Sources */,
 				762B87CE2D21597B00884CE1 /* 10871.swift in Sources */,
