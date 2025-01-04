@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,xcode,swift,clion,c,c++
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,xcode,swift,clion,c,c++
+# Created by https://www.toptal.com/developers/gitignore/api/macos,xcode,swift,visualstudiocode,clion,c,c++
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,xcode,swift,visualstudiocode,clion,c,c++
 
 ### C ###
 # Prerequisites
@@ -304,6 +304,25 @@ fastlane/test_output
 
 iOSInjectionProject/
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
 ### Xcode ###
 
 ## Xcode 8 and earlier
@@ -317,4 +336,4 @@ iOSInjectionProject/
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,xcode,swift,clion,c,c++
+# End of https://www.toptal.com/developers/gitignore/api/macos,xcode,swift,visualstudiocode,clion,c,c++
