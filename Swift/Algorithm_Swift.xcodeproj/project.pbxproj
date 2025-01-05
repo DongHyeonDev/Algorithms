@@ -48,6 +48,7 @@
 		762B87E82D265D8800884CE1 /* 9086.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87E72D265D8800884CE1 /* 9086.swift */; };
 		762B87EC2D27B95800884CE1 /* 15964.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87EB2D27B95800884CE1 /* 15964.swift */; };
 		762B87FF2D2908BD00884CE1 /* 2475.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87FE2D2908BD00884CE1 /* 2475.swift */; };
+		762B88012D2A591300884CE1 /* 10926.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B88002D2A591300884CE1 /* 10926.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,6 +83,7 @@
 		762B87E72D265D8800884CE1 /* 9086.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9086.swift; sourceTree = "<group>"; };
 		762B87EB2D27B95800884CE1 /* 15964.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15964.swift; sourceTree = "<group>"; };
 		762B87FE2D2908BD00884CE1 /* 2475.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2475.swift; sourceTree = "<group>"; };
+		762B88002D2A591300884CE1 /* 10926.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10926.swift; sourceTree = "<group>"; };
 		764AE0242D0A7CD700CB69ED /* 7287.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7287.swift; sourceTree = "<group>"; };
 		767C24102D0E94D800777215 /* 1330.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1330.swift; sourceTree = "<group>"; };
 		767C24122D0E9F7D00777215 /* 9498.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9498.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				76B51B882D0D70DF00F5AD22 /* 10998.swift */,
 				76FCDF5D2D088BA600E47010 /* 1008.swift */,
 				76B51B8A2D0D71B500F5AD22 /* 10869.swift */,
+				762B88002D2A591300884CE1 /* 10926.swift */,
 				76B51B8C2D0D73D400F5AD22 /* 11382.swift */,
 				76B51B802D0BE81500F5AD22 /* 10171.swift */,
 				76B51B842D0BE99A00F5AD22 /* 10172.swift */,
@@ -446,6 +449,7 @@
 				762B87B82D20478C00884CE1 /* Solvable.swift in Sources */,
 				762B87BD2D21535B00884CE1 /* 1330.swift in Sources */,
 				762B87C62D2157B800884CE1 /* 5597.swift in Sources */,
+				762B88012D2A591300884CE1 /* 10926.swift in Sources */,
 				762B87D22D215A3D00884CE1 /* 10952.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
