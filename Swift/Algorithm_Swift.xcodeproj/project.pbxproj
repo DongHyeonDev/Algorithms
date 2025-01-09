@@ -53,6 +53,7 @@
 		76A72A952D2CDCE00050A3C9 /* 10430.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72A942D2CDCE00050A3C9 /* 10430.swift */; };
 		76A72A972D2CDF7B0050A3C9 /* 2588.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72A962D2CDF7B0050A3C9 /* 2588.swift */; };
 		76A72A992D2E38570050A3C9 /* 2884.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72A982D2E38570050A3C9 /* 2884.swift */; };
+		76A72A9B2D2F93400050A3C9 /* 2525.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72A9A2D2F93400050A3C9 /* 2525.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -103,6 +104,7 @@
 		76A72A942D2CDCE00050A3C9 /* 10430.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10430.swift; sourceTree = "<group>"; };
 		76A72A962D2CDF7B0050A3C9 /* 2588.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2588.swift; sourceTree = "<group>"; };
 		76A72A982D2E38570050A3C9 /* 2884.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2884.swift; sourceTree = "<group>"; };
+		76A72A9A2D2F93400050A3C9 /* 2525.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2525.swift; sourceTree = "<group>"; };
 		76B51B802D0BE81500F5AD22 /* 10171.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10171.swift; sourceTree = "<group>"; };
 		76B51B842D0BE99A00F5AD22 /* 10172.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10172.swift; sourceTree = "<group>"; };
 		76B51B862D0BEAA100F5AD22 /* 25083.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25083.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				767C24162D0FF2A400777215 /* 2753.swift */,
 				767C24142D0FF0F100777215 /* 14681.swift */,
 				76A72A982D2E38570050A3C9 /* 2884.swift */,
+				76A72A9A2D2F93400050A3C9 /* 2525.swift */,
 			);
 			path = "2. 조건문";
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 				762B87BE2D21539B00884CE1 /* 2420.swift in Sources */,
 				76A72A952D2CDCE00050A3C9 /* 10430.swift in Sources */,
 				762B87B82D20478C00884CE1 /* Solvable.swift in Sources */,
+				76A72A9B2D2F93400050A3C9 /* 2525.swift in Sources */,
 				762B87BD2D21535B00884CE1 /* 1330.swift in Sources */,
 				762B87C62D2157B800884CE1 /* 5597.swift in Sources */,
 				762B88012D2A591300884CE1 /* 10926.swift in Sources */,
