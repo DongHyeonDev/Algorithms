@@ -1,13 +1,20 @@
 ---
 name: BOJ Problem issue template
 about: Baekjoon Online Judge 문제용 Issue Template 입니다.
-title: 'BOJ  - '
-labels: problem
+title: 'BOJ - '
+labels: BOJ, problem
 assignees: DongHyeonDev
 
 ---
 
-# BOJ  : 
+# BOJ : 
+
+## 해결 언어 및 소스코드
+
+- [ ] C
+- [ ] C++
+- [ ] Swift
+
 
 ## 문제
 
@@ -42,18 +49,11 @@ assignees: DongHyeonDev
 
 ## 출처
 
->
+> 
 
 - 문제를 번역한 사람: baekjoon
 
 
 ## 알고리즘 분류
 
-- 
-
-
-<!-- ## 소스코드
-
-[C]()
-[C++]()
-[Swift]() -->
+-
