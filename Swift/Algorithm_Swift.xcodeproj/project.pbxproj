@@ -61,6 +61,7 @@
 		76A72AB82D36191E0050A3C9 /* 11021.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72AB72D36191E0050A3C9 /* 11021.swift */; };
 		76A72ABA2D378B650050A3C9 /* 11022.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72AB92D378B650050A3C9 /* 11022.swift */; };
 		76A72ABC2D38EBFD0050A3C9 /* 2439.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72ABB2D38EBFD0050A3C9 /* 2439.swift */; };
+		76A72ABE2D3A23610050A3C9 /* 10818.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72ABD2D3A23610050A3C9 /* 10818.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -119,6 +120,7 @@
 		76A72AB72D36191E0050A3C9 /* 11021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11021.swift; sourceTree = "<group>"; };
 		76A72AB92D378B650050A3C9 /* 11022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11022.swift; sourceTree = "<group>"; };
 		76A72ABB2D38EBFD0050A3C9 /* 2439.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2439.swift; sourceTree = "<group>"; };
+		76A72ABD2D3A23610050A3C9 /* 10818.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10818.swift; sourceTree = "<group>"; };
 		76B51B802D0BE81500F5AD22 /* 10171.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10171.swift; sourceTree = "<group>"; };
 		76B51B842D0BE99A00F5AD22 /* 10172.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10172.swift; sourceTree = "<group>"; };
 		76B51B862D0BEAA100F5AD22 /* 25083.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25083.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 			children = (
 				762B87A92D19A03000884CE1 /* 10807.swift */,
 				762B87A72D183BB300884CE1 /* 10871.swift */,
+				76A72ABD2D3A23610050A3C9 /* 10818.swift */,
 				762B87AB2D1B009700884CE1 /* 5597.swift */,
 			);
 			path = "4. 1차원 배열";
@@ -481,6 +484,7 @@
 				762B87FF2D2908BD00884CE1 /* 2475.swift in Sources */,
 				76A72A9F2D322DB10050A3C9 /* 8393.swift in Sources */,
 				762B87CE2D21597B00884CE1 /* 10871.swift in Sources */,
+				76A72ABE2D3A23610050A3C9 /* 10818.swift in Sources */,
 				762B87C12D21565600884CE1 /* 2738.swift in Sources */,
 				762B87E22D22551500884CE1 /* 15552.swift in Sources */,
 				762B87CD2D21593D00884CE1 /* 10869.swift in Sources */,
