@@ -6,7 +6,7 @@
 //
 
 //  문제 링크: https://www.acmicpc.net/problem/10818
-//  알고리즘 분류: 구현
+//  알고리즘 분류: 수학, 구현
 
 class BOJ10818: Solvable {
     // 메모리: 144104KB, 시간: 364ms, 코드 길이: 346B

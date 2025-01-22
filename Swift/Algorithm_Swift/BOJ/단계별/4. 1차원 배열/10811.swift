@@ -6,7 +6,7 @@
 //
 
 //  문제 링크: https://www.acmicpc.net/problem/10811
-//  알고리즘 분류: 수학, 사칙연산
+//  알고리즘 분류: 구현, 시뮬레이션
 
 class BOJ10811: Solvable {
     // 메모리: 79508KB, 시간: 12ms, 코드 길이: 381B
