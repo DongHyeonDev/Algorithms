@@ -67,6 +67,7 @@
 		76A72AC42D3E2E4C0050A3C9 /* 10813.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72AC32D3E2E4C0050A3C9 /* 10813.swift */; };
 		76A72AC62D3F596A0050A3C9 /* 3052.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72AC52D3F596A0050A3C9 /* 3052.swift */; };
 		76A72AC82D40B2DD0050A3C9 /* 10811.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72AC72D40B2DD0050A3C9 /* 10811.swift */; };
+		76A72ACA2D4216E60050A3C9 /* 1546.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72AC92D4216E50050A3C9 /* 1546.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -131,6 +132,7 @@
 		76A72AC32D3E2E4C0050A3C9 /* 10813.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10813.swift; sourceTree = "<group>"; };
 		76A72AC52D3F596A0050A3C9 /* 3052.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3052.swift; sourceTree = "<group>"; };
 		76A72AC72D40B2DD0050A3C9 /* 10811.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10811.swift; sourceTree = "<group>"; };
+		76A72AC92D4216E50050A3C9 /* 1546.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1546.swift; sourceTree = "<group>"; };
 		76B51B802D0BE81500F5AD22 /* 10171.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10171.swift; sourceTree = "<group>"; };
 		76B51B842D0BE99A00F5AD22 /* 10172.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10172.swift; sourceTree = "<group>"; };
 		76B51B862D0BEAA100F5AD22 /* 25083.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25083.swift; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 				762B87AB2D1B009700884CE1 /* 5597.swift */,
 				76A72AC52D3F596A0050A3C9 /* 3052.swift */,
 				76A72AC72D40B2DD0050A3C9 /* 10811.swift */,
+				76A72AC92D4216E50050A3C9 /* 1546.swift */,
 			);
 			path = "4. 1차원 배열";
 			sourceTree = "<group>";
@@ -465,6 +468,7 @@
 			files = (
 				762B87E42D240FE400884CE1 /* 27866.swift in Sources */,
 				762B87C02D21562200884CE1 /* 2557.swift in Sources */,
+				76A72ACA2D4216E60050A3C9 /* 1546.swift in Sources */,
 				762B87BF2D2153BE00884CE1 /* 2438.swift in Sources */,
 				762B87C22D2156D900884CE1 /* 2739.swift in Sources */,
 				762B87B62D20024400884CE1 /* main.swift in Sources */,
