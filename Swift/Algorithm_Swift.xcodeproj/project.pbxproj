@@ -72,6 +72,7 @@
 		76A72ACE2D44A1B10050A3C9 /* 10809.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72ACD2D44A1B10050A3C9 /* 10809.swift */; };
 		76A72AD02D4627060050A3C9 /* 2675.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72ACF2D4627060050A3C9 /* 2675.swift */; };
 		76A72AD22D475A690050A3C9 /* 1152.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72AD12D475A690050A3C9 /* 1152.swift */; };
+		76FFB2C42D48C057005E948F /* 2908.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB2C32D48C057005E948F /* 2908.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -153,6 +154,7 @@
 		76FCDF5D2D088BA600E47010 /* 1008.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1008.swift; sourceTree = "<group>"; };
 		76FCDF612D090F8300E47010 /* 2557.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2557.swift; sourceTree = "<group>"; };
 		76FCDF632D092CD100E47010 /* 10699.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10699.swift; sourceTree = "<group>"; };
+		76FFB2C32D48C057005E948F /* 2908.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2908.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +282,7 @@
 				76A72ACD2D44A1B10050A3C9 /* 10809.swift */,
 				76A72ACF2D4627060050A3C9 /* 2675.swift */,
 				76A72AD12D475A690050A3C9 /* 1152.swift */,
+				76FFB2C32D48C057005E948F /* 2908.swift */,
 				762B87E52D24DD6600884CE1 /* 11718.swift */,
 			);
 			path = "5. 문자열";
@@ -504,6 +507,7 @@
 				76A72ACC2D4360490050A3C9 /* 11720.swift in Sources */,
 				76A72AC22D3CB2C50050A3C9 /* 10810.swift in Sources */,
 				762B87C92D21585600884CE1 /* 10171.swift in Sources */,
+				76FFB2C42D48C057005E948F /* 2908.swift in Sources */,
 				76A72AD22D475A690050A3C9 /* 1152.swift in Sources */,
 				762B87D72D215B2300884CE1 /* 25083.swift in Sources */,
 				76A72AC82D40B2DD0050A3C9 /* 10811.swift in Sources */,
