@@ -6,7 +6,7 @@
 //
 
 //  문제 링크: https://www.acmicpc.net/problem/2444
-//  알고리즘 분류: 수학, 구현, 사칙연산
+//  알고리즘 분류: 구현
 
 class BOJ2444: Solvable {
     // 메모리: 79508KB, 시간: 12ms, 코드 길이: 562B
