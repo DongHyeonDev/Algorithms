@@ -53,6 +53,7 @@
 		7679C7262D4F3C2700D56B9C /* 1157.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7679C7252D4F3C2700D56B9C /* 1157.swift */; };
 		7679C7282D50631900D56B9C /* 2941.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7679C7272D50631900D56B9C /* 2941.swift */; };
 		7679C72A2D52073B00D56B9C /* 1316.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7679C7292D52073B00D56B9C /* 1316.swift */; };
+		7679C72C2D5306BA00D56B9C /* 25206.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7679C72B2D5306BA00D56B9C /* 25206.swift */; };
 		76A72A932D2B90CD0050A3C9 /* 18108.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72A922D2B90CD0050A3C9 /* 18108.swift */; };
 		76A72A952D2CDCE00050A3C9 /* 10430.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72A942D2CDCE00050A3C9 /* 10430.swift */; };
 		76A72A972D2CDF7B0050A3C9 /* 2588.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A72A962D2CDF7B0050A3C9 /* 2588.swift */; };
@@ -120,6 +121,7 @@
 		7679C7252D4F3C2700D56B9C /* 1157.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1157.swift; sourceTree = "<group>"; };
 		7679C7272D50631900D56B9C /* 2941.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2941.swift; sourceTree = "<group>"; };
 		7679C7292D52073B00D56B9C /* 1316.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1316.swift; sourceTree = "<group>"; };
+		7679C72B2D5306BA00D56B9C /* 25206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25206.swift; sourceTree = "<group>"; };
 		767C24102D0E94D800777215 /* 1330.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1330.swift; sourceTree = "<group>"; };
 		767C24122D0E9F7D00777215 /* 9498.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9498.swift; sourceTree = "<group>"; };
 		767C24142D0FF0F100777215 /* 14681.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14681.swift; sourceTree = "<group>"; };
@@ -313,6 +315,7 @@
 				7679C7252D4F3C2700D56B9C /* 1157.swift */,
 				7679C7272D50631900D56B9C /* 2941.swift */,
 				7679C7292D52073B00D56B9C /* 1316.swift */,
+				7679C72B2D5306BA00D56B9C /* 25206.swift */,
 			);
 			path = "6. 심화 1";
 			sourceTree = "<group>";
@@ -511,6 +514,7 @@
 				762B87B92D20481D00884CE1 /* 2744.swift in Sources */,
 				762B87C72D2157EE00884CE1 /* 7287.swift in Sources */,
 				762B87EC2D27B95800884CE1 /* 15964.swift in Sources */,
+				7679C72C2D5306BA00D56B9C /* 25206.swift in Sources */,
 				762B87D12D215A1B00884CE1 /* 10951.swift in Sources */,
 				762B87D42D215A9F00884CE1 /* 11382.swift in Sources */,
 				762B87C42D21571A00884CE1 /* 2743.swift in Sources */,
