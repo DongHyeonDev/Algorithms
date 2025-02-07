@@ -6,10 +6,10 @@
 //
 
 //  문제 링크: https://www.acmicpc.net/problem/2566
-//  알고리즘 분류: 사칙연산, 구현, 수학
+//  알고리즘 분류: 구현
 
 class BOJ2566: Solvable {
-    // 메모리: 79772KB, 시간: 16ms, 코드 길이: 1787B
+    // 메모리: 79512KB, 시간: 8ms, 코드 길이: 648B
     func run() {
         var matrix: [[Int]] = []
         var maxNumber = Int.min
