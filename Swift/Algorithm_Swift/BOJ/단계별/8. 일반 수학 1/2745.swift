@@ -11,7 +11,7 @@
 import Foundation
 
 class BOJ2745: Solvable {
-    // 메모리: 79516KB, 시간: 8ms, 코드 길이: 838B
+    // 메모리: 79512KB, 시간: 12ms, 코드 길이: 880B
     func run() {
         // 입력 받기
         if let input = readLine()?.split(separator: " "), let B = Int(input[1]) {
