@@ -8,8 +8,6 @@
 //  문제 링크: https://www.acmicpc.net/problem/11005
 //  알고리즘 분류: 수학, 구현
 
-//import Foundation
-
 class BOJ11005: Solvable {
     // 메모리: 79512KB, 시간: 12ms, 코드 길이: 772B
     func run() {
