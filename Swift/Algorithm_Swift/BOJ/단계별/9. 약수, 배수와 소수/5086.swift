@@ -6,7 +6,7 @@
 //
 
 //  문제 링크: https://www.acmicpc.net/problem/5086
-//  알고리즘 분류: 수학
+//  알고리즘 분류: 수학, 사칙연산
 
 class BOJ5086: Solvable {
     // 메모리: 79512KB, 시간: 8ms, 코드 길이: 491B
