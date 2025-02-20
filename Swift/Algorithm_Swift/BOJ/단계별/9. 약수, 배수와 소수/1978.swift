@@ -33,7 +33,7 @@ class BOJ1978: Solvable {
         }
 
         // 입력 받기
-        if let n = Int(readLine() ?? "0"),  // 첫 줄: 숫자의 개수 N
+        if let _ = Int(readLine() ?? "0"),  // 첫 줄: 숫자의 개수 N
            let numbers = readLine()?.split(separator: " ").compactMap({ Int($0) }) { // 두 번째 줄: 공백으로 구분된 숫자들
             
             var primeCount = 0  // 소수 개수 저장 변수
