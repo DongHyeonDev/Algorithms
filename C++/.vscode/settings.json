@@ -1,3 +1,6 @@
 {
-    "BOJ.extension": "cpp"
+    "BOJ.extension": "cpp",
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }
