@@ -6,10 +6,10 @@
 //
 
 //  문제 링크: https://www.acmicpc.net/problem/24313
-//  알고리즘 분류: 수학, 구현, 시뮬레이션
+//  알고리즘 분류: 수학
 
 class BOJ24313: Solvable {
-    // 메모리: 79508KB, 시간: 8ms, 코드 길이: 275B
+    // 메모리: 79512KB, 시간: 8ms, 코드 길이: 532B
     func run() {
         // 입력 받기
         if let input1 = readLine()?.split(separator: " ").compactMap({ Int($0) }),
