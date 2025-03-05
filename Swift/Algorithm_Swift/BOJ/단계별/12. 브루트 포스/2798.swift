@@ -9,7 +9,7 @@
 //  알고리즘 분류: 브루트포스 알고리즘
 
 class BOJ2798: Solvable {
-    // 메모리: 79512KB, 시간: 8ms, 코드 길이: 532B
+    // 메모리: 79512KB, 시간: 8ms, 코드 길이: 825B
     func run() {
         // 입력 받기
         if let firstLine = readLine()?.split(separator: " ").compactMap({ Int($0) }),
