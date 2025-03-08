@@ -7,3 +7,5 @@
 ## Contents
 
 * [Swift](https://github.com/DongHyeonDev/Algorithms/tree/main/Swift)
+* [C](https://github.com/DongHyeonDev/Algorithms/tree/main/C)
+* [C++](https://github.com/DongHyeonDev/Algorithms/tree/main/C++)
