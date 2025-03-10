@@ -1,20 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                      :::    :::    :::     */
-/*   Problem Number: 1008                              :+:    :+:      :+:    */
+/*   Problem Number: 10926                             :+:    :+:      :+:    */
 /*                                                    +:+    +:+        +:+   */
 /*   By: dhkim0206 <boj.kr/u/dhkim0206>              +#+    +#+          +#+  */
 /*                                                  +#+      +#+        +#+   */
-/*   https://boj.kr/1008                           #+#        #+#      #+#    */
-/*   Solved: 2025/03/06 23:07:25 by dhkim0206     ###          ###   ##.kr    */
+/*   https://boj.kr/10926                          #+#        #+#      #+#    */
+/*   Solved: 2025/03/10 15:04:35 by dhkim0206     ###          ###   ##.kr    */
 /*                                                                            */
 /* ************************************************************************** */
 #include <iostream>
+#include <string>
 
 int main() {
-    int A, B;
-    std::cin >> A >> B;
-    std::cout.precision(10);
-    std::cout << static_cast<double>(A) / B << std::endl;
+    std::string id;
+    std::cin >> id;
+    std::cout << id << "??!" << std::endl;
     return 0;
 }
