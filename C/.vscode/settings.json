@@ -1,3 +1,6 @@
 {
-    "BOJ.extension": "c"
+    "BOJ.extension": "c",
+    "files.associations": {
+        "stdio.h": "c"
+    }
 }
