@@ -15,7 +15,7 @@ class BOJ25305: Solvable {
         if let firstInput = readLine()?.split(separator: " ").compactMap({ Int($0) }),
            let secondInput = readLine()?.split(separator: " ").compactMap({ Int($0) }) {
 
-            let N = firstInput[0]  // 응시자 수
+            let _ = firstInput[0]  // 응시자 수
             let k = firstInput[1]  // 상을 받는 사람 수
             var scores = secondInput  // 학생들의 점수 리스트
 
