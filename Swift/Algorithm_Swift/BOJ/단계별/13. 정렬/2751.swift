@@ -6,7 +6,7 @@
 //
 
 //  문제 링크: https://www.acmicpc.net/problem/2751
-//  알고리즘 분류: 구현, 정렬
+//  알고리즘 분류: 정렬
 
 class BOJ2751: Solvable {
     // 메모리: 92000KB, 시간: 1136ms, 코드 길이: 335B
