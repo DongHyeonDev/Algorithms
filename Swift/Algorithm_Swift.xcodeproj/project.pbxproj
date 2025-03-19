@@ -127,6 +127,7 @@
 		76FFB2C62D49D541005E948F /* 5622.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB2C52D49D541005E948F /* 5622.swift */; };
 		76FFB2C82D4B1A4E005E948F /* 3003.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB2C72D4B1A4E005E948F /* 3003.swift */; };
 		76FFB2CA2D4C74E3005E948F /* 2444.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB2C92D4C74E3005E948F /* 2444.swift */; };
+		76FFB7EC2D8AE51100F2B678 /* 10814.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB7EB2D8AE51100F2B678 /* 10814.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -263,6 +264,7 @@
 		76FFB2C52D49D541005E948F /* 5622.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5622.swift; sourceTree = "<group>"; };
 		76FFB2C72D4B1A4E005E948F /* 3003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3003.swift; sourceTree = "<group>"; };
 		76FFB2C92D4C74E3005E948F /* 2444.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2444.swift; sourceTree = "<group>"; };
+		76FFB7EB2D8AE51100F2B678 /* 10814.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10814.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -504,6 +506,7 @@
 				76F4FF622D85EE3900F7CC30 /* 11650.swift */,
 				76F4FF642D87AB5C00F7CC30 /* 11651.swift */,
 				76F4FF662D89009A00F7CC30 /* 1181.swift */,
+				76FFB7EB2D8AE51100F2B678 /* 10814.swift */,
 			);
 			path = "13. 정렬";
 			sourceTree = "<group>";
@@ -658,6 +661,7 @@
 				76DB4FDA2D736B590085165E /* 24262.swift in Sources */,
 				7679C72E2D54720E00D56B9C /* 2566.swift in Sources */,
 				762B87D12D215A1B00884CE1 /* 10951.swift in Sources */,
+				76FFB7EC2D8AE51100F2B678 /* 10814.swift in Sources */,
 				762B87D42D215A9F00884CE1 /* 11382.swift in Sources */,
 				762B87C42D21571A00884CE1 /* 2743.swift in Sources */,
 				762B87D92D215D0200884CE1 /* 2754.swift in Sources */,

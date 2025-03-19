@@ -9,7 +9,7 @@
 //  알고리즘 분류: 정렬
 
 class BOJ1181: Solvable {
-    // 메모리: 82644KB, 시간: 268ms, 코드 길이: 640B
+    // 메모리: 82708KB, 시간: 628ms, 코드 길이: 523B
     func run() {
         // 입력 받기
         if let n = Int(readLine() ?? "0") {
