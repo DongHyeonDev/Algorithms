@@ -12,7 +12,7 @@ class BOJ18870: Solvable {
     // 메모리: 155336KB, 시간: 900ms, 코드 길이: 603B
     func run() {
         // 입력 받기
-        if let n = Int(readLine() ?? "0"),
+        if let _ = Int(readLine() ?? "0"),
            let input = readLine()?.split(separator: " ").compactMap({ Int($0) }) {
             
             // 중복을 제거한 정렬된 좌표 리스트 생성

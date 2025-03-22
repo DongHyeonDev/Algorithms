@@ -12,9 +12,9 @@ class BOJ10815: Solvable {
     // 메모리: 122096KB, 시간: 512ms, 코드 길이: 657B
     func run() {
         // 상근이가 가지고 있는 숫자 카드 개수
-        if let n = Int(readLine() ?? "0"),
+        if let _ = Int(readLine() ?? "0"),
            let sangGeunCards = readLine()?.split(separator: " ").compactMap({ Int($0) }),
-           let m = Int(readLine() ?? "0"),
+           let _ = Int(readLine() ?? "0"),
            let numbersToCheck = readLine()?.split(separator: " ").compactMap({ Int($0) }) {
 
             // 상근이 카드들을 Set으로 저장하여 빠른 탐색 가능
