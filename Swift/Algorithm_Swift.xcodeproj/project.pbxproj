@@ -132,6 +132,7 @@
 		76FFB7F02D8D7C7500F2B678 /* 10815.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB7EF2D8D7C7500F2B678 /* 10815.swift */; };
 		76FFB7F22D8EB7F100F2B678 /* 14425.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB7F12D8EB7F100F2B678 /* 14425.swift */; };
 		76FFB7F42D8F908400F2B678 /* 7785.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB7F32D8F908400F2B678 /* 7785.swift */; };
+		76FFB7F62D9158B000F2B678 /* 1620.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB7F52D9158B000F2B678 /* 1620.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -273,6 +274,7 @@
 		76FFB7EF2D8D7C7500F2B678 /* 10815.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10815.swift; sourceTree = "<group>"; };
 		76FFB7F12D8EB7F100F2B678 /* 14425.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14425.swift; sourceTree = "<group>"; };
 		76FFB7F32D8F908400F2B678 /* 7785.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7785.swift; sourceTree = "<group>"; };
+		76FFB7F52D9158B000F2B678 /* 1620.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1620.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -526,6 +528,7 @@
 				76FFB7EF2D8D7C7500F2B678 /* 10815.swift */,
 				76FFB7F12D8EB7F100F2B678 /* 14425.swift */,
 				76FFB7F32D8F908400F2B678 /* 7785.swift */,
+				76FFB7F52D9158B000F2B678 /* 1620.swift */,
 			);
 			path = "14. 집합과 맵";
 			sourceTree = "<group>";
@@ -720,6 +723,7 @@
 				76DB4FCE2D6BA1720085165E /* 3009.swift in Sources */,
 				76F4FF5D2D82CFD700F7CC30 /* 2751.swift in Sources */,
 				762B87CA2D21588400884CE1 /* 10172.swift in Sources */,
+				76FFB7F62D9158B000F2B678 /* 1620.swift in Sources */,
 				76FFB7F02D8D7C7500F2B678 /* 10815.swift in Sources */,
 				762B87BC2D21532500884CE1 /* 1008.swift in Sources */,
 				76F4FF632D85EE3900F7CC30 /* 11650.swift in Sources */,
