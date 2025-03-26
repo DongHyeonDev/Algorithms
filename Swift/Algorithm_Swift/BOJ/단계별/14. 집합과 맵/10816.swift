@@ -12,7 +12,7 @@ class BOJ10816: Solvable {
     // 메모리: 140492KB, 시간: 600ms, 코드 길이: 1103B
     func run() {
         // 숫자 카드 개수 입력
-        if let n = Int(readLine() ?? "") {
+        if let _ = Int(readLine() ?? "") {
             // 숫자 카드 목록 입력
             if let sanggeunCards = readLine()?.split(separator: " ").compactMap({ Int($0) }) {
                 var cardCount: [Int: Int] = [:] // 카드 숫자별 개수 저장용 딕셔너리
@@ -23,7 +23,7 @@ class BOJ10816: Solvable {
                 }
                 
                 // 체크할 카드 개수 입력
-                if let m = Int(readLine() ?? "") {
+                if let _ = Int(readLine() ?? "") {
                     // 체크할 카드 목록 입력
                     if let checkCards = readLine()?.split(separator: " ").compactMap({ Int($0) }) {
                         var results: [Int] = []
