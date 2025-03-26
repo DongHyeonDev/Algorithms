@@ -134,6 +134,7 @@
 		76FFB7F42D8F908400F2B678 /* 7785.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB7F32D8F908400F2B678 /* 7785.swift */; };
 		76FFB7F62D9158B000F2B678 /* 1620.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB7F52D9158B000F2B678 /* 1620.swift */; };
 		76FFB7F82D92796700F2B678 /* 10816.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB7F72D92796700F2B678 /* 10816.swift */; };
+		76FFB7FA2D93C39E00F2B678 /* 1764.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB7F92D93C39E00F2B678 /* 1764.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -277,6 +278,7 @@
 		76FFB7F32D8F908400F2B678 /* 7785.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7785.swift; sourceTree = "<group>"; };
 		76FFB7F52D9158B000F2B678 /* 1620.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1620.swift; sourceTree = "<group>"; };
 		76FFB7F72D92796700F2B678 /* 10816.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10816.swift; sourceTree = "<group>"; };
+		76FFB7F92D93C39E00F2B678 /* 1764.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1764.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -532,6 +534,7 @@
 				76FFB7F32D8F908400F2B678 /* 7785.swift */,
 				76FFB7F52D9158B000F2B678 /* 1620.swift */,
 				76FFB7F72D92796700F2B678 /* 10816.swift */,
+				76FFB7F92D93C39E00F2B678 /* 1764.swift */,
 			);
 			path = "14. 집합과 맵";
 			sourceTree = "<group>";
@@ -719,6 +722,7 @@
 				762B87C92D21585600884CE1 /* 10171.swift in Sources */,
 				7679C7282D50631900D56B9C /* 2941.swift in Sources */,
 				76FFB2C42D48C057005E948F /* 2908.swift in Sources */,
+				76FFB7FA2D93C39E00F2B678 /* 1764.swift in Sources */,
 				76A72AD22D475A690050A3C9 /* 1152.swift in Sources */,
 				76DB4FEA2D7805AA0085165E /* 2231.swift in Sources */,
 				762B87D72D215B2300884CE1 /* 25083.swift in Sources */,
