@@ -135,6 +135,7 @@
 		76FFB7F62D9158B000F2B678 /* 1620.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB7F52D9158B000F2B678 /* 1620.swift */; };
 		76FFB7F82D92796700F2B678 /* 10816.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB7F72D92796700F2B678 /* 10816.swift */; };
 		76FFB7FA2D93C39E00F2B678 /* 1764.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB7F92D93C39E00F2B678 /* 1764.swift */; };
+		76FFB7FC2D94F8ED00F2B678 /* 1269.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FFB7FB2D94F8ED00F2B678 /* 1269.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -279,6 +280,7 @@
 		76FFB7F52D9158B000F2B678 /* 1620.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1620.swift; sourceTree = "<group>"; };
 		76FFB7F72D92796700F2B678 /* 10816.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10816.swift; sourceTree = "<group>"; };
 		76FFB7F92D93C39E00F2B678 /* 1764.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1764.swift; sourceTree = "<group>"; };
+		76FFB7FB2D94F8ED00F2B678 /* 1269.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1269.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -535,6 +537,7 @@
 				76FFB7F52D9158B000F2B678 /* 1620.swift */,
 				76FFB7F72D92796700F2B678 /* 10816.swift */,
 				76FFB7F92D93C39E00F2B678 /* 1764.swift */,
+				76FFB7FB2D94F8ED00F2B678 /* 1269.swift */,
 			);
 			path = "14. 집합과 맵";
 			sourceTree = "<group>";
@@ -743,6 +746,7 @@
 				7679C7242D4DD64900D56B9C /* 10988.swift in Sources */,
 				76A72A972D2CDF7B0050A3C9 /* 2588.swift in Sources */,
 				766973FC2D5AE38C00DE5E4D /* 2720.swift in Sources */,
+				76FFB7FC2D94F8ED00F2B678 /* 1269.swift in Sources */,
 				76FFB2CA2D4C74E3005E948F /* 2444.swift in Sources */,
 				762B87BA2D2049B000884CE1 /* 1000.swift in Sources */,
 				76A72A992D2E38570050A3C9 /* 2884.swift in Sources */,
