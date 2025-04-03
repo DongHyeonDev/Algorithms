@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		760956D22D9D011B00E5507D /* 4134.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760956D12D9D011B00E5507D /* 4134.swift */; };
+		760956D42D9E55E600E5507D /* 1929.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760956D32D9E55E600E5507D /* 1929.swift */; };
 		762B87B62D20024400884CE1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87B52D20024400884CE1 /* main.swift */; };
 		762B87B82D20478C00884CE1 /* Solvable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87B72D20478C00884CE1 /* Solvable.swift */; };
 		762B87B92D20481D00884CE1 /* 2744.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87B32D1FFC3000884CE1 /* 2744.swift */; };
@@ -158,6 +159,7 @@
 
 /* Begin PBXFileReference section */
 		760956D12D9D011B00E5507D /* 4134.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4134.swift; sourceTree = "<group>"; };
+		760956D32D9E55E600E5507D /* 1929.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1929.swift; sourceTree = "<group>"; };
 		762B87A32D1707BB00884CE1 /* 2438.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2438.swift; sourceTree = "<group>"; };
 		762B87A52D17099B00884CE1 /* 10951.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10951.swift; sourceTree = "<group>"; };
 		762B87A72D183BB300884CE1 /* 10871.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10871.swift; sourceTree = "<group>"; };
@@ -563,6 +565,7 @@
 				76CC8A622D9A124E00D61CB0 /* 1735.swift */,
 				76C02EDE2D9B84A8001759DF /* 2485.swift */,
 				760956D12D9D011B00E5507D /* 4134.swift */,
+				760956D32D9E55E600E5507D /* 1929.swift */,
 			);
 			path = "15. 약수, 배수와 소수 2";
 			sourceTree = "<group>";
@@ -762,6 +765,7 @@
 				76CC8A612D9919BE00D61CB0 /* 13241.swift in Sources */,
 				762B87CC2D2158F700884CE1 /* 10807.swift in Sources */,
 				762B87DE2D22542900884CE1 /* RhynoFileIO.swift in Sources */,
+				760956D42D9E55E600E5507D /* 1929.swift in Sources */,
 				7669740A2D641DC200DE5E4D /* 9506.swift in Sources */,
 				76A72ABC2D38EBFD0050A3C9 /* 2439.swift in Sources */,
 				762B87C52D21577C00884CE1 /* 2753.swift in Sources */,
