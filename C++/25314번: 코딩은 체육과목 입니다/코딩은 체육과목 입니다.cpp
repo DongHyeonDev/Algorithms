@@ -6,17 +6,17 @@
 /*   By: dhkim0206 <boj.kr/u/dhkim0206>              +#+    +#+          +#+  */
 /*                                                  +#+      +#+        +#+   */
 /*   https://boj.kr/25314                          #+#        #+#      #+#    */
-/*   Solved: 2025/04/15 20:08:17 by dhkim0206     ###          ###   ##.kr    */
+/*   Solved: 2025/04/15 21:26:23 by dhkim0206     ###          ###   ##.kr    */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
+#include <iostream>
 
 int main() {
     int num;
-    scanf("%d", &num);
-    for (int i = 0 ; i < num/4 ; i++){
-        printf("long ");
+    std::cin >> num;
+    for(int i = 0 ; i < num/4 ; i++){
+        std::cout << "long ";
     }
-    printf("int\n");
+    std::cout << "int" << std::endl;
     return 0;
 }
