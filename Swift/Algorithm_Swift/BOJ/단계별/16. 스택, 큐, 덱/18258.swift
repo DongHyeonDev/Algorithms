@@ -26,9 +26,9 @@ class BOJ18258: Solvable {
             switch command {
             case "push":
                 let x = fileIO.readInt()
-                queue.push(x)
+                queue.enqueue(x)
             case "pop":
-                output += "\(queue.pop())\n"
+                output += "\(queue.dequeue())\n"
             case "size":
                 output += "\(queue.size())\n"
             case "empty":
