@@ -6,19 +6,20 @@
 /*   By: dhkim0206 <boj.kr/u/dhkim0206>              +#+    +#+          +#+  */
 /*                                                  +#+      +#+        +#+   */
 /*   https://boj.kr/10952                          #+#        #+#      #+#    */
-/*   Solved: 2025/04/26 16:50:57 by dhkim0206     ###          ###   ##.kr    */
+/*   Solved: 2025/04/26 17:05:04 by dhkim0206     ###          ###   ##.kr    */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>int A, B;
+#include <iostream>
 
 int main() {
     int A, B;
 
-    while (scanf("%d %d", &A, &B) == 2) {
+    while (true) {
+        std::cin >> A >> B;
         if (A == 0 && B == 0) {
             break;
         }
-        printf("%d\n", A + B);
+        std::cout << A + B << "\n";
     }
     
     return 0;
