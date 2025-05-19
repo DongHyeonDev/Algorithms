@@ -12,7 +12,7 @@ class BOJ1912: Solvable {
     // 메모리: 86520KB, 시간: 32ms, 코드 길이: 1056B
     func run() {
         // 입력 처리
-        if let nInput = readLine(), let n = Int(nInput),
+        if let nInput = readLine(), let _ = Int(nInput),
            let sequenceInput = readLine() {
             
             // 수열 입력 처리
