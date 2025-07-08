@@ -9,7 +9,7 @@
 //  알고리즘 분류: 그래프 이론, 그래프 탐색, 너비 우선 탐색, 격자 그래프
 
 class BOJ2178: Solvable {
-    // 메모리: 79652KB, 시간: 12ms, 코드 길이: 1415B
+    // 메모리: 80044KB, 시간: 20ms, 코드 길이: 1126B
     func run() {
         // 빠른 입출력 설정
         let fileIO = RhynoFileIO()
