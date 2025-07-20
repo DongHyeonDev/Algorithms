@@ -30,20 +30,26 @@ struct Deque<T> {
 
     // 앞에서 제거
     mutating func popFront() -> T? {
-        if frontStack.isEmpty {
+        if !frontStack.isEmpty {
+            return frontStack.removeLast()
+        } else if !backStack.isEmpty {
             frontStack = backStack.reversed()
             backStack.removeAll()
+            return frontStack.removeLast()
         }
-        return frontStack.popLast()
+        return nil
     }
 
     // 뒤에서 제거
     mutating func popBack() -> T? {
-        if backStack.isEmpty {
+        if !backStack.isEmpty {
+            return backStack.removeLast()
+        } else if !frontStack.isEmpty {
             backStack = frontStack.reversed()
             frontStack.removeAll()
+            return backStack.removeLast()
         }
-        return backStack.popLast()
+        return nil
     }
 
     // 앞 요소 조회
