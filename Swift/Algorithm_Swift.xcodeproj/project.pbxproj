@@ -704,6 +704,7 @@
 		760956E52DA357DB00E5507D /* 31. 동적 계획법 2 */ = {
 			isa = PBXGroup;
 			children = (
+				C9D590D32E39D78F005FFF7F /* 11066.swift */,
 			);
 			path = "31. 동적 계획법 2";
 			sourceTree = "<group>";
@@ -763,7 +764,6 @@
 				C94DCBBD2E35E870008788B0 /* 1806.swift */,
 				C94DCBBF2E372D17008788B0 /* 1644.swift */,
 				C93D0B2F2E388A590061A1C4 /* 1450.swift */,
-				C9D590D32E39D78F005FFF7F /* 11066.swift */,
 			);
 			path = "30. 투 포인터";
 			sourceTree = "<group>";
