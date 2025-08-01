@@ -254,6 +254,7 @@
 		C9D59ABC2E2B5D3A00985B5A /* 1504.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D59ABB2E2B5D3A00985B5A /* 1504.swift */; };
 		C9D59ABE2E2CBE9900985B5A /* 13549.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D59ABD2E2CBE9900985B5A /* 13549.swift */; };
 		C9D59AC02E2DD40E00985B5A /* 9370.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D59ABF2E2DD40E00985B5A /* 9370.swift */; };
+		C9D5FB622E3CA72900C1E4BD /* 1520.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D5FB612E3CA72900C1E4BD /* 1520.swift */; };
 		C9DA34B72E18D38400817C6F /* 2667.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DA34B62E18D38400817C6F /* 2667.swift */; };
 		C9DB603D2E1627BC00A0FE34 /* 2606.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DB603C2E1627BC00A0FE34 /* 2606.swift */; };
 		C9DB605B2E1803B200A0FE34 /* 1260.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DB605A2E1803B200A0FE34 /* 1260.swift */; };
@@ -532,6 +533,7 @@
 		C9D59ABB2E2B5D3A00985B5A /* 1504.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1504.swift; sourceTree = "<group>"; };
 		C9D59ABD2E2CBE9900985B5A /* 13549.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13549.swift; sourceTree = "<group>"; };
 		C9D59ABF2E2DD40E00985B5A /* 9370.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9370.swift; sourceTree = "<group>"; };
+		C9D5FB612E3CA72900C1E4BD /* 1520.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1520.swift; sourceTree = "<group>"; };
 		C9DA34B62E18D38400817C6F /* 2667.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2667.swift; sourceTree = "<group>"; };
 		C9DB603C2E1627BC00A0FE34 /* 2606.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2606.swift; sourceTree = "<group>"; };
 		C9DB605A2E1803B200A0FE34 /* 1260.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1260.swift; sourceTree = "<group>"; };
@@ -708,6 +710,7 @@
 			children = (
 				C9D590D32E39D78F005FFF7F /* 11066.swift */,
 				C9D590D52E3B2FC7005FFF7F /* 11049.swift */,
+				C9D5FB612E3CA72900C1E4BD /* 1520.swift */,
 			);
 			path = "31. 동적 계획법 2";
 			sourceTree = "<group>";
@@ -1454,6 +1457,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9DD32332E1BBC4F00E0E828 /* 2178.swift in Sources */,
+				C9D5FB622E3CA72900C1E4BD /* 1520.swift in Sources */,
 				762B87E42D240FE400884CE1 /* 27866.swift in Sources */,
 				762B87C02D21562200884CE1 /* 2557.swift in Sources */,
 				762528202DAE24E5008CCFE0 /* 28279.swift in Sources */,
