@@ -5,9 +5,14 @@
 //  Created by 김동현 on 6/24/25.
 //
 
-// 최소 힙 구현
-struct MinHeap {
-    private var heap = [Int]()
+// 제네릭 최소 힙 구현 (제네릭)
+struct MinHeap<T> {
+    private var heap = [T]()
+    private let isOrderedBefore: (T, T) -> Bool
+    
+    init(_ isOrderedBefore: @escaping (T, T) -> Bool) {
+        self.isOrderedBefore = isOrderedBefore
+    }
     
     var isEmpty: Bool {
         return heap.isEmpty
@@ -44,7 +49,7 @@ struct MinHeap {
         while childIndex > 0 {
             let parentIndex = self.parentIndex(of: childIndex)
             
-            if heap[parentIndex] <= heap[childIndex] {
+            if !isOrderedBefore(heap[childIndex], heap[parentIndex]) {
                 break
             }
             
@@ -63,12 +68,12 @@ struct MinHeap {
             let rightIndex = rightChildIndex(of: parentIndex)
             
             // 왼쪽 자식이 더 작으면
-            if leftIndex < count && heap[leftIndex] < heap[smallestIndex] {
+            if leftIndex < count && isOrderedBefore(heap[leftIndex], heap[smallestIndex]) {
                 smallestIndex = leftIndex
             }
             
             // 오른쪽 자식이 더 작으면
-            if rightIndex < count && heap[rightIndex] < heap[smallestIndex] {
+            if rightIndex < count && isOrderedBefore(heap[rightIndex], heap[smallestIndex]) {
                 smallestIndex = rightIndex
             }
             
@@ -83,13 +88,13 @@ struct MinHeap {
     }
     
     // 원소 삽입
-    mutating func insert(_ value: Int) {
+    mutating func insert(_ value: T) {
         heap.append(value)
         heapifyUp(from: count - 1)
     }
     
     // 최솟값 제거 및 반환
-    mutating func extractMin() -> Int? {
+    mutating func extractMin() -> T? {
         guard !isEmpty else { return nil }
         
         if count == 1 {
@@ -104,7 +109,7 @@ struct MinHeap {
     }
     
     // 최솟값 확인
-    func peek() -> Int? {
+    func peek() -> T? {
         return heap.first
     }
 }
