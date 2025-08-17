@@ -13,7 +13,7 @@
 		762B87DE2D22542900884CE1 /* RhynoFileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87DD2D22542900884CE1 /* RhynoFileIO.swift */; };
 		765A984C2DB11C1C00B167EA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765A984B2DB11C1C00B167EA /* Stack.swift */; };
 		769986E72DAB8BE700752D17 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769986E62DAB8BE700752D17 /* Queue.swift */; };
-		C9111DF32E503E64001C96A1 /* 1167.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9111DF22E503E64001C96A1 /* 1167.swift */; };
+		C9111DF52E518EA6001C96A1 /* 1967.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9111DF42E518EA6001C96A1 /* 1967.swift */; };
 		C91845ED2E2E3E1000273165 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91845EC2E2E3E1000273165 /* Dijkstra.swift */; };
 		C966CB402E0924AC00CB0AA4 /* MaxHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966CB3F2E0924AC00CB0AA4 /* MaxHeap.swift */; };
 		C9742C282E0BC11100254991 /* AbsoluteHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9742C272E0BC11100254991 /* AbsoluteHeap.swift */; };
@@ -203,6 +203,7 @@
 		C9111DEE2E4DC255001C96A1 /* 11780.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11780.swift; sourceTree = "<group>"; };
 		C9111DF02E4ED8A9001C96A1 /* 11725.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11725.swift; sourceTree = "<group>"; };
 		C9111DF22E503E64001C96A1 /* 1167.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1167.swift; sourceTree = "<group>"; };
+		C9111DF42E518EA6001C96A1 /* 1967.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1967.swift; sourceTree = "<group>"; };
 		C913292E2DC9DC97003692C5 /* 15651.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15651.swift; sourceTree = "<group>"; };
 		C91329302DCB778D003692C5 /* 15652.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15652.swift; sourceTree = "<group>"; };
 		C91329322DCC298A003692C5 /* 9663.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9663.swift; sourceTree = "<group>"; };
@@ -562,6 +563,7 @@
 			children = (
 				C9111DF02E4ED8A9001C96A1 /* 11725.swift */,
 				C9111DF22E503E64001C96A1 /* 1167.swift */,
+				C9111DF42E518EA6001C96A1 /* 1967.swift */,
 			);
 			path = "33. 트리";
 			sourceTree = "<group>";
@@ -1234,10 +1236,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9111DF32E503E64001C96A1 /* 1167.swift in Sources */,
 				762B87B62D20024400884CE1 /* main.swift in Sources */,
 				C9742C282E0BC11100254991 /* AbsoluteHeap.swift in Sources */,
 				765A984C2DB11C1C00B167EA /* Stack.swift in Sources */,
+				C9111DF52E518EA6001C96A1 /* 1967.swift in Sources */,
 				762528222DAE6B88008CCFE0 /* Deque.swift in Sources */,
 				C91845ED2E2E3E1000273165 /* Dijkstra.swift in Sources */,
 				762B87DE2D22542900884CE1 /* RhynoFileIO.swift in Sources */,
