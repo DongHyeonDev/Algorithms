@@ -11,41 +11,6 @@
 class BOJ1197: Solvable {
     // 메모리: 84788KB, 시간: 48ms, 코드 길이: 1373B
     func run() {
-        // 간선 구조체
-        struct Edge {
-            let from: Int
-            let to: Int
-            let weight: Int
-            
-            init(_ from: Int, _ to: Int, _ weight: Int) {
-                self.from = from
-                self.to = to
-                self.weight = weight
-            }
-        }
-
-        // Union-Find 자료구조
-        var parent: [Int] = []
-
-        @inline(__always) func find(_ x: Int) -> Int {
-            if parent[x] != x {
-                parent[x] = find(parent[x])
-            }
-            return parent[x]
-        }
-
-        @inline(__always) func union(_ x: Int, _ y: Int) -> Bool {
-            let rootX = find(x)
-            let rootY = find(y)
-            
-            if rootX == rootY {
-                return false  // 이미 같은 집합 (사이클 형성)
-            }
-            
-            parent[rootX] = rootY
-            return true  // 성공적으로 합침
-        }
-
         // 메인 실행
         let fileIO = RhynoFileIO()
         let v = fileIO.readInt()  // 정점 수
@@ -59,7 +24,7 @@ class BOJ1197: Solvable {
             let a = fileIO.readInt()
             let b = fileIO.readInt()
             let c = fileIO.readInt()
-            edges.append(Edge(a, b, c))
+            edges.append(Edge(a, b, Double(c)))
         }
 
         // 간선을 가중치 기준으로 오름차순 정렬
@@ -74,7 +39,7 @@ class BOJ1197: Solvable {
 
         for edge in edges {
             if union(edge.from, edge.to) {
-                mstWeight += edge.weight
+                mstWeight += Int(edge.weight)
                 edgeCount += 1
                 
                 // MST는 정확히 V-1개의 간선을 가짐
