@@ -11,24 +11,6 @@
 class BOJ1976: Solvable {
     // 메모리: 79672KB, 시간: 12ms, 코드 길이: 1079B
     func run() {
-        // Union-Find 자료구조
-        var parent: [Int] = []
-
-        @inline(__always) func find(_ x: Int) -> Int {
-            if parent[x] != x {
-                parent[x] = find(parent[x])
-            }
-            return parent[x]
-        }
-
-        @inline(__always) func union(_ x: Int, _ y: Int) {
-            let px = find(x)
-            let py = find(y)
-            if px != py {
-                parent[px] = py
-            }
-        }
-
         // 메인 실행
         let fileIO = RhynoFileIO()
         let n = fileIO.readInt()

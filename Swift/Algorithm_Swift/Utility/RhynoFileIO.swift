@@ -39,6 +39,22 @@ final class RhynoFileIO {
 
         return sum * (isPositive ? 1:-1)
     }
+    
+    @inline(__always) func readDouble() -> Double {
+        var str = ""
+        var now = read()
+        var isPositive = true
+        
+        while now == 10 || now == 32 { now = read() }
+        if now == 45 { isPositive = false; now = read() }
+        
+        while (now >= 48 && now <= 57) || now == 46 {
+            str += String(Character(UnicodeScalar(now)))
+            now = read()
+        }
+        
+        return Double(str)! * (isPositive ? 1 : -1)
+    }
 
     @inline(__always) func readString() -> String {
         var now = read()
