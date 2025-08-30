@@ -9,7 +9,7 @@
 //  알고리즘 분류: 그래프 이론, 최소 스패닝 트리
 
 class BOJ1774: Solvable {
-    // 메모리: 98404KB, 시간: 124ms, 코드 길이: 966B
+    // 메모리: 98412KB, 시간: 148ms, 코드 길이: 993B
     func run() {
         // 메인 실행
         let fileIO = RhynoFileIO()
@@ -25,13 +25,13 @@ class BOJ1774: Solvable {
         }
 
         // Union-Find 초기화 (0부터 n-1까지)
-        parent = Array(0..<n)
+        let unionFind = UnionFind(n)
 
         // 이미 연결된 통로 처리
         for _ in 0..<m {
             let a = fileIO.readInt() - 1  // 1-indexed를 0-indexed로 변환
             let b = fileIO.readInt() - 1
-            _ = union(a, b)
+            _ = unionFind.union(a, b)
         }
 
         // 모든 점 쌍 사이의 거리를 간선으로 생성
@@ -50,7 +50,7 @@ class BOJ1774: Solvable {
         var totalWeight = 0.0
 
         for edge in edges {
-            if union(edge.from, edge.to) {
+            if unionFind.union(edge.from, edge.to) {
                 totalWeight += edge.weight
             }
         }
