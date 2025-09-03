@@ -13,12 +13,12 @@
 		762B87DE2D22542900884CE1 /* RhynoFileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B87DD2D22542900884CE1 /* RhynoFileIO.swift */; };
 		765A984C2DB11C1C00B167EA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765A984B2DB11C1C00B167EA /* Stack.swift */; };
 		769986E72DAB8BE700752D17 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769986E62DAB8BE700752D17 /* Queue.swift */; };
+		C90F1C6F2E680E3300C6D4B6 /* 2533.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90F1C6E2E680E3300C6D4B6 /* 2533.swift */; };
 		C91845ED2E2E3E1000273165 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91845EC2E2E3E1000273165 /* Dijkstra.swift */; };
 		C9547C5B2E607485000EE0B4 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9547C5A2E607485000EE0B4 /* Edge.swift */; };
 		C9547C5D2E6074D8000EE0B4 /* UnionFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9547C5C2E6074D8000EE0B4 /* UnionFind.swift */; };
 		C9547C602E60788B000EE0B4 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9547C5F2E60788B000EE0B4 /* Point.swift */; };
 		C955C6672E62E720002376B8 /* Kruskal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955C6662E62E720002376B8 /* Kruskal.swift */; };
-		C955C6702E66BA54002376B8 /* 1949.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955C66F2E66BA54002376B8 /* 1949.swift */; };
 		C966CB402E0924AC00CB0AA4 /* MaxHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966CB3F2E0924AC00CB0AA4 /* MaxHeap.swift */; };
 		C9742C282E0BC11100254991 /* AbsoluteHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9742C272E0BC11100254991 /* AbsoluteHeap.swift */; };
 		C9F19BCD2E0A5D32003CEC09 /* MinHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F19BCC2E0A5D32003CEC09 /* MinHeap.swift */; };
@@ -202,6 +202,7 @@
 		C9009F442DEC1AE000ED6F27 /* 11660.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11660.swift; sourceTree = "<group>"; };
 		C9009F462DED062700ED6F27 /* 25682.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25682.swift; sourceTree = "<group>"; };
 		C9009F482DEE9DC600ED6F27 /* 11047.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11047.swift; sourceTree = "<group>"; };
+		C90F1C6E2E680E3300C6D4B6 /* 2533.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2533.swift; sourceTree = "<group>"; };
 		C910CC802DD339B60080892B /* 9184.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9184.swift; sourceTree = "<group>"; };
 		C910CC822DD470460080892B /* 1904.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1904.swift; sourceTree = "<group>"; };
 		C9111DEE2E4DC255001C96A1 /* 11780.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11780.swift; sourceTree = "<group>"; };
@@ -632,6 +633,7 @@
 			children = (
 				C955C66A2E6551C0002376B8 /* 15681.swift */,
 				C955C66F2E66BA54002376B8 /* 1949.swift */,
+				C90F1C6E2E680E3300C6D4B6 /* 2533.swift */,
 			);
 			path = "36. 트리에서의 동적 계획법";
 			sourceTree = "<group>";
@@ -1290,9 +1292,9 @@
 				C91845ED2E2E3E1000273165 /* Dijkstra.swift in Sources */,
 				762B87DE2D22542900884CE1 /* RhynoFileIO.swift in Sources */,
 				769986E72DAB8BE700752D17 /* Queue.swift in Sources */,
+				C90F1C6F2E680E3300C6D4B6 /* 2533.swift in Sources */,
 				C9F19BCD2E0A5D32003CEC09 /* MinHeap.swift in Sources */,
 				C966CB402E0924AC00CB0AA4 /* MaxHeap.swift in Sources */,
-				C955C6702E66BA54002376B8 /* 1949.swift in Sources */,
 				C9547C5D2E6074D8000EE0B4 /* UnionFind.swift in Sources */,
 				762B87B82D20478C00884CE1 /* Solvable.swift in Sources */,
 			);
