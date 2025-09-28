@@ -1,25 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                      :::    :::    :::     */
-/*   Problem Number: 2750                              :+:    :+:      :+:    */
+/*   Problem Number: 2587                              :+:    :+:      :+:    */
 /*                                                    +:+    +:+        +:+   */
 /*   By: dhkim0206 <boj.kr/u/dhkim0206>              +#+    +#+          +#+  */
 /*                                                  +#+      +#+        +#+   */
-/*   https://boj.kr/2750                           #+#        #+#      #+#    */
-/*   Solved: 2025/09/27 16:03:23 by dhkim0206     ###          ###   ##.kr    */
+/*   https://boj.kr/2587                           #+#        #+#      #+#    */
+/*   Solved: 2025/09/28 19:07:51 by dhkim0206     ###          ###   ##.kr    */
 /*                                                                            */
 /* ************************************************************************** */
 #include <iostream>
 
 int main() {
-    int N;
-    if (!(std::cin >> N)) return 0;
+    std::vector<int> v(5);
+    int sum = 0;
 
-    std::vector<int> a(N);
-    for (int i = 0; i < N; ++i) std::cin >> a[i];
+    for (int i = 0; i < 5; ++i) {
+        std::cin >> v[i];
+        sum += v[i];
+    }
+    std::sort(v.begin(), v.end());
 
-    std::sort(a.begin(), a.end());
+    int avg = sum / 5;
+    int med = v[2];
 
-    for (int x : a) std::cout << x << '\n';
+    std::cout << avg << '\n' << med << '\n';
+    
     return 0;
 }
