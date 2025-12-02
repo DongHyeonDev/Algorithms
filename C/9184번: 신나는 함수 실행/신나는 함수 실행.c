@@ -18,30 +18,30 @@ int w(int a, int b, int c) {
     if (a <= 0 || b <= 0 || c <= 0) {
         return 1;
     }
-    
+
     // 기저 조건 2: a, b, c 중 하나라도 20 초과
     if (a > 20 || b > 20 || c > 20) {
         return w(20, 20, 20);
     }
-    
+
     // 메모이제이션: 이미 계산된 값이 있으면 반환
     if (dp[a][b][c] != 0) {
         return dp[a][b][c];
     }
-    
+
     // 재귀 계산
     if (a < b && b < c) {
         dp[a][b][c] = w(a, b, c-1) + w(a, b-1, c-1) - w(a, b-1, c);
     } else {
         dp[a][b][c] = w(a-1, b, c) + w(a-1, b-1, c) + w(a-1, b, c-1) - w(a-1, b-1, c-1);
     }
-    
+
     return dp[a][b][c];
 }
 
 int main() {
     int a, b, c;
-    
+
     // dp 배열 초기화 (0으로)
     for (int i = 0; i <= 20; i++) {
         for (int j = 0; j <= 20; j++) {
@@ -50,17 +50,17 @@ int main() {
             }
         }
     }
-    
+
     while (1) {
         scanf("%d %d %d", &a, &b, &c);
-        
+
         // 종료 조건
         if (a == -1 && b == -1 && c == -1) {
             break;
         }
-        
+
         printf("w(%d, %d, %d) = %d\n", a, b, c, w(a, b, c));
     }
-    
+
     return 0;
 }
