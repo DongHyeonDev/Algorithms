@@ -29,7 +29,7 @@
 				Algorithm/Dijkstra.swift,
 				Algorithm/Kruskal.swift,
 				Algorithm/UnionFind.swift,
-				"BOJ/단계별/36. 트리에서의 동적 계획법/2213.swift",
+				"BOJ/단계별/36. 트리에서의 동적 계획법/15647.swift",
 				DataStructure/AbsoluteHeap.swift,
 				DataStructure/Deque.swift,
 				DataStructure/Edge.swift,
